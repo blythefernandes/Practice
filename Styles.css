@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(200, 234, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: xx-large;
+    font-style: initial;
+}
+p{
+    font-weight: lighter;
+    color: brown;
+}
