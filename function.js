@@ -1,6 +1,8 @@
-function sq (x){
-    let ans = 0;
-    ans = x*x;
-    return ans;
+function greet (name, cb){
+    console.log("Hello, "+ name+ "!");
+    cb();
 }
-console.log("the answer is:" +sq(2));
+function gdb(){
+    console.log("Goodbye!");
+}
+console.log (greet("Blythe",gdb));
